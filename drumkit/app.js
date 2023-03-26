@@ -1,19 +1,12 @@
+window.addEventListener('keydown', (event) => {
+  const eventKey = `[data-key='${event.keyCode}']`;
+  const audio = document.querySelector(`audio${eventKey}`);
+  const key = document.querySelector(`div${eventKey}`);
 
-window.addEventListener("keydown", function(event) {
-    const keyPressed = event.keyCode;
-    const audio = document.querySelector(`audio[data-key='${keyPressed}']`);
-    const key = document.querySelector(`div[data-key='${keyPressed}']`);
-  
-    if (key) {
-      key.classList.add("playing");
-      // remove class after transition
-      key.addEventListener("transitionend", function(event) {
-        key.classList.remove("playing");
-      });
-    }
-  
-    if (!audio) return;
-    audio.currentTime = 0; // rewind to the start
-    audio.play();
+  key.classList.add('playing');
+  key.addEventListener('transitionend', (event) => {
+    key.classList.remove('playing');
   });
-  
+  audio.currentTime = 0;
+  audio.play();
+});

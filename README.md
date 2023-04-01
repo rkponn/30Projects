@@ -1,5 +1,6 @@
 # 30 Projects randomly built
 Mostly built out with vanilla js and some css. Sometimes breaking it down to the basics to fully understand the concepts.
+Building for learning and fun. 
 
 
 ### Drum kit
@@ -13,3 +14,4 @@ A simple page with a few inputs that change the CSS variables of the page. How t
 
 ### Array Cardio
 Just a few exercises to get used to the array methods. Reduce, map, filter, sort, etc...
+

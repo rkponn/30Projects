@@ -2,6 +2,8 @@
 Mostly built out with vanilla js and some css. Sometimes breaking it down to the basics to fully understand the concepts.
 Building for learning and fun. 
 
+Adding a few more projects to the list. However this is a test line.
+
 
 ### Drum kit
 A simple drum kit with a few sounds. Dealing with event listeners.
